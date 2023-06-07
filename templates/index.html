@@ -1,10 +1,20 @@
 <html lang="en">
+<head>
+   <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
 <title>Image Classification</title>
+   <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link>
+</head>
    <body>
    <h2>Upload an image to classify</h2>
       <form action = "http://localhost:5000/image" method = "POST"
          enctype = "multipart/form-data">
-         <input type = "file" name = "file" />
+         <input type="file" class="form-control" id="customFile" />
          <input type = "submit"/>
       </form>
    </body>
